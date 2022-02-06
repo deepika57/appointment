@@ -3,7 +3,7 @@ const req = require("express/lib/request");
 const mongoose = require("mongoose");
 const router = express.Router();
 const Doctor = require("../model/doctorSchema");
-const appointment = require("../model/appointment");
+const appointment = require("../model/CreateAppointment");
 const patient = require("../model/patient");
 
 const cache = require("E:/DocApp-master/routeCache.js");
